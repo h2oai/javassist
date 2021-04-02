@@ -126,14 +126,14 @@
   mvn deploy
     -->
     <repository>
-      <id>jboss-releases-repository</id>
+      <id>h2o-internal-releases-repository</id>
       <name>JBoss Releases Repository</name>
-      <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
+      <url>http://nexus.0xdata.loc:8081/nexus/repository/releases</url>
     </repository>
     <snapshotRepository>
-      <id>jboss-snapshots-repository</id>
+      <id>h2o-internal-snapshots-repository</id>
       <name>JBoss Snapshots Repository</name>
-      <url>https://repository.jboss.org/nexus/content/repositories/snapshots/</url>
+      <url>http://nexus.0xdata.loc:8081/nexus/repository/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
