@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 
-@Library('test-shared-library@1.1') _
+@Library('test-shared-library@1.9') _
 
 
 pipeline {
