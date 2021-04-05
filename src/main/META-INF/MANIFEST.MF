@@ -1,5 +1,5 @@
 Specification-Title: Javassist
 Specification-Vendor: H2O.ai, www.h2o.ai
-Specification-Version: 3.27.1-GA
+Specification-Version: 3.27.1-h2o-GA
 Main-Class: javassist.CtClass
 Automatic-Module-Name: org.javassist
